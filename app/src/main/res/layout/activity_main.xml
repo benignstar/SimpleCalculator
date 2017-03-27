@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vartical"
+    android:orientation="vertical"
     tools:context="benignstar.kr.hs.emirim.simplecalculator.MainActivity">
 
     <TextView
@@ -28,22 +28,22 @@
         />
     <Button
         android:id="@+id/but_add"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+"/>
     <Button
         android:id="@+id/but_sub"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="-"/>
     <Button
         android:id="@+id/but_mul"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="×"/>
     <Button
         android:id="@+id/but_div"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="÷"/>
     <TextView
